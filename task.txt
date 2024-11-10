@@ -1,0 +1,35 @@
+designing a REST FULL API
+ -- json rest API
+
+ GET /user - HTML Documnet Render ---DONE ---
+ //can also use this ///
+ GET /api/user - list all users JSON ---DONE ---
+ 
+ POST /user - create a new user
+ GET /user/:id - get a user by id
+ PUT /user/:id - update a user
+ DELETE /user/:id - delete a user
+ -- json rest API
+
+ GET /api/user/1 - get the user with ID 1 ---DONE ---
+ GET /api/user/2 - get the user with ID 2 ---DONE ---
+
+
+ (this 1, 2 we gotta make it dynamic so...)
+ DYNAMIC PATH PARAMETERS
+ -->GET /api/user/:id    //`:` makes in Dynamic
+
+...now here we have a problem cuz html browser takes only get requests by default
+not the below ones.. so now lets make a routes...
+
+POST /api/user - create new user
+
+PATCH /api/user/1 - edit the user with ID 1
+
+DELETE /api/user/1 - delete the user with ID 1
+
+//for all this we will need postman applicaiton setup 
+// so that we can perform these methods
+
+
+
